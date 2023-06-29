@@ -2,10 +2,12 @@
   "name": "data-integration-module",
   "version": "1.0.1",
   "description": "data integration module",
-  "main": "src/index.ts",
+  "main": "src/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "npm run build:live",
     "build": "tsc -p .",
+    "prepare": "npm run build",
     "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
