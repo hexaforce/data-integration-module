@@ -5,5 +5,5 @@ export class Greeter {
 }
 
 export const Aaa = () => {
-  return "aaa"
+  return 'aaa'
 }
