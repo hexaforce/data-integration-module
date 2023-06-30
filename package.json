@@ -1,6 +1,6 @@
 {
   "name": "@hexaforce/data-integration-module",
-  "version": "1.0.1",
+  "version": "1.0.10",
   "description": "data integration module",
   "main": "src/index.js",
   "types": "dist/index.d.ts",

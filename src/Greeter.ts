@@ -3,3 +3,7 @@ export class Greeter {
     console.log(`Hello ${to}`)
   }
 }
+
+export const Aaa = () => {
+  return "aaa"
+}
